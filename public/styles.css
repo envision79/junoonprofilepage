@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --blue: #319AD0;
+    --purple: #816AE4;
+    --darkpurple: #313369;
+    --whitesmoke: whitesmoke;
+}
+.headingColor {
+    color: var(--darkpurple);
+    font-weight: 600;
+}
+body {
+    background: linear-gradient(var(--blue), var(--purple));
+    padding: 10vh;
+    font-family: 'Poppins';
+}
+.profile {
+    display: flex;
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    justify-content: space-evenly;
+    border: 1px solid var(--whitesmoke);
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: var(--whitesmoke);
+}
+.image {
+    margin: auto;
+    text-align: center;
+}
+.image img {
+    width: 100px;
+    border-radius: 50%;
+}
+.photo-links {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 20px;
+    background: linear-gradient(var(--whitesmoke), var(--lightblue));
+    border-right: 1px solid var(--whitesmoke);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+}
+.photo-links a i {
+    margin-right: 10px;
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 65%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.details {
+    border: 1px solid var(--whitesmoke);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--whitesmoke);
+    /* backdrop-filter: blur(100px); */
+}
+.badges {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.one-badge {
+    display: flex;
+    align-items: center;
+    background-color: var(--whitesmoke);
+    border-radius: 10px;
+    width: 40%;
+    margin: 10px 0 10px 0;   
+    padding: 10px;
+    /* backdrop-filter: blur(100px); */
+}
+.winner-info {
+    margin-left: 10px;
+}
+.new-competition{
+    display: flex;
+    align-items: center;
+    height: 30%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--purple), var(--blue));
+}
+.new-competition i{
+    font-size: 40px;
+    transform: rotate(-45deg);
+}
