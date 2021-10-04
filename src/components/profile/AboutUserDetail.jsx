@@ -3,7 +3,7 @@ import { makeStyles, Typography, Box, withStyles } from "@material-ui/core";
 
 const AboutUserDetail =(props) => {
     return (
-        <Box>
+        <Box style={{lineHeight: 2}}>
             <div className="about-me-details">
             <h2>About Me</h2>
             <div className="details">
