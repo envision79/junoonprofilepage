@@ -1,5 +1,5 @@
 import React from "react";
-import { makeStyles, Typography, Box, withStyles } from "@material-ui/core";
+import {Box} from "@material-ui/core";
 
 const NewBadge = (props) => {
   return (
